@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f8efae;
+  color: #f8efae;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-container {
+  padding: 10px 20px;
+  width: max-content;
+  height: max-content;
+  margin-top: 25px;
+  border-radius: 20px;
+  background-color: #303031;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Caveat';
+  font-weight: 100;
+}
+
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 5px;
+  border-radius: 5px;
+  font-family: 'Caveat';
+  font-size: 20px;
+  width: 340px;
+  background-color: #f3f2cd;
+}
+
+.register-button {
+  padding: 2px 5px;
+  font-family: 'Caveat';
+  font-size: 20px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f3f2cd;
+}
+.register-button:hover{
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 5px;
+  color: #158f6a;
+}
+
+.menu-title{
+  text-align: center;
+  margin: 10px auto;
+  font-family: 'Caveat';
+  font-size: 40px;
+  color: #f8faed;
+}
+.menu{
+  border: 3px solid;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 90%;
+  background-color: #303031;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+  border-bottom: 10px solid #158f6a;
+}
+
+header p{
+  color:#158f6a;
+  font-size: 50px;
+  font-family: 'Caveat';
+  border: 1px solid;
+  border-color: #f8efae;
+  border-radius: 10px;
+  padding: 0px 15px 0px 15px;
+  background-color: #f8efae;
+  margin: 50px 0px 30px 0px;
+}
+
+#header-title{
+  font-family: 'Ephesis';
+  font-weight: 600;
+  font-size: 100px;
+  color: #158f6a;
+  -webkit-text-stroke: #158f6a 1px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #f8efae;
+  background-color: #f8efae;
+  padding: 0px 30px 0px 30px;
+  margin: 60px 0px 30px 0px;
+}
+
+#capa_sobre{
+  background-image: url('images\background.jpeg');
+}

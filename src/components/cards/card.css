@@ -1,0 +1,54 @@
+.card-container {
+    width: 99%;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Caveat';
+    border-bottom: 3px dashed #f3f2cd;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .card-id {
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: #303031;
+    border-radius: 5px;
+    color: #303031;
+    font-weight: 700;
+    padding: 3px;
+    font-family: monospace;
+  }
+  
+
+  .card-container:hover > .card-id{
+    background-color: #f3f2cd;
+    color: #f3f2cd;
+  }
+  
+  .card-title {
+    display: inline;
+    font-family: 'Ephesis';
+    font-weight: 600;
+    font-size: 35px;
+  }
+  
+  .card-cost {
+    margin-top: 15px;
+    text-align: end;
+    font-size: 20px;
+  }
+  
+  .card-container:hover {
+    background-color: #f3f2cd;
+    color: #223d35;
+    border: 2px solid #560202;
+    border-radius: 5px;
+  }
+
+  .card-category{
+    font-size: 20px
+  }
+
+  
